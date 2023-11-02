@@ -1,27 +1,9 @@
-# React + TypeScript + Vite
+# 學習日本五十音
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+透過遊玩的方式學習日本的五十音，此網站除了基本的**清音**外也有**濁音**跟**半濁音**。  
+製作此網站的目的除了學習日語之外，也希望透過此專案來學習 Typescript、Unit Test、Github Action 以及 Webhook。
 
-Currently, two official plugins are available:
+## 目錄
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [五十音網站]()
+- [專案建置]()
