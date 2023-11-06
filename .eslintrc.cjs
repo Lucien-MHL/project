@@ -25,5 +25,6 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/comma-dangle': 'off',
     'jsx-quotes': ['error', 'prefer-single'],
+    'prettier/prettier': 'off',
   },
 }
