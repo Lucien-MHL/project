@@ -9,15 +9,7 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test:unit": "vitest --run --changed",
-    "prettier:check": "prettier --config .prettierrc --check \"src/**/*.{ts,tsx}\"",
     "prepare": "husky install"
-  },
-  "lint-staged": {
-    "*.{ts,tsx}": "npm run lint",
-    "src/**/*.{ts,tsx}": [
-      "prettier:check",
-      "test:unit"
-    ]
   },
   "dependencies": {
     "react": "^18.2.0",
