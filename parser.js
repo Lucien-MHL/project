@@ -17,7 +17,7 @@ export function ParseSearchResult(html) {
     results.push(parsed)
   }
 
-  return results
+  return results.filter((s) => s)
 }
 
 export function parseVideo(data) {

@@ -3,8 +3,9 @@ import { ParseSearchResult } from './parser.js'
 
 // const url = 'https://randomuser.me/api/'
 
-async function search() {
-  const url = 'https://www.youtube.com/results?search_query=' + '慢慢等'
+export async function search(query) {
+  if (!query) return
+  const url = 'https://www.youtube.com/results?search_query=' + query
   const abnormal = '系統從您的電腦偵測到異常流量。'
   const body = await HandleRequest(url).then((res) => {
     if (res.indexOf(abnormal) !== -1) {
